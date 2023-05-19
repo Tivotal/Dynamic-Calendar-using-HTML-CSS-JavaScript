@@ -100,7 +100,7 @@ prevNextBtn.forEach((btn) => {
       currentMonth = date.getMonth();
     } else {
       //passing current date as date value
-      date - new Date();
+      date = new Date();
     }
 
     getCalendar();
